@@ -7,8 +7,8 @@ steps:
   - sources:
       - url: https://github.com/pftf/RPi4/releases/download/v1.32/RPi4_UEFI_Firmware_v1.32.zip # <-- update version NR accordingly.
         destination: RPi4_UEFI_Firmware.zip
-        sha256: d6db87484dd98dfbeb64eef203944623130cec8cb71e553eab21f8917e0285f7
-        sha512: 96a71086cdd062b51ef94726ebcbf15482b70c56262555a915499bafc04aff959d122410af37214760eda8534b58232a64f6a8a0a8bb99aba6de0f94c739fe98
+        sha256: 649f7b60d4d072e7e35fb4c9e8647322a66ddb2bf4aaa4032442b88230fd3a1e
+        sha512: 7335d06f2573165015400b08e058ef4f6972755fac1b24a5a6085b7e92f90f6d0cb76e5ec7d5abb8d709608a048bee05036c32fb5704e348069409d4f8774ab8
     prepare:
       - |
         unzip RPi4_UEFI_Firmware.zip
